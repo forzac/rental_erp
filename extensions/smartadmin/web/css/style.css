@@ -1,0 +1,266 @@
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+#log-form{
+    margin-top: 30px;
+}
+.row-margin{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*.form-horizontal .control-label {*/
+    /*box-sizing: border-box;*/
+    /*padding-right: 10px;*/
+/*}*/
+
+/*.form-group {*/
+    /*margin-top:8px;*/
+/*}*/
+
+/*.form-control, .input-lg, .input-sm, .input-xs {*/
+    /*padding: 0 5px 0 5px;*/
+/*}*/
+
+.form-horizontal .checkbox i, .form-horizontal .radio i {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    display: block;
+    width: 17px;
+    height: 17px;
+    outline: 0;
+    border-width: 1px;
+    border-style: solid;
+    background: #FFF;
+    line-height: 32px;
+}
+
+/*.btn {*/
+    /*padding: 6px 12px;*/
+/*}*/
+
+/*.form-horizontal .toggle i {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*left: 0px;*/
+    /*margin-top: 7px;*/
+    /*display: block;*/
+    /*width: 49px;*/
+    /*height: 17px;*/
+    /*border-width: 1px;*/
+    /*border-style: solid;*/
+    /*border-radius: 12px;*/
+    /*background: #fff;*/
+/*}*/
+/*.jarviswidget > div {*/
+    /*float: left;*/
+    /*width: 100%;*/
+    /*position: relative;*/
+    /*font-size: 13px;*/
+    /*-moz-border-radius: 0;*/
+    /*-khtml-border-radius: 0;*/
+    /*-webkit-border-radius: 0;*/
+    /*border-radius: 0;*/
+    /*border-width: 1px 1px 2px;*/
+    /*border-style: solid;*/
+    /*border-top: none;*/
+    /*border-right-color: #CCC !important;*/
+    /*border-bottom-color: #CCC !important;*/
+    /*border-left-color: #CCC !important;*/
+    /*padding: 13px 13px 0;*/
+    /*overflow: visible;*/
+/*}*/
+
+
+.form-horizontal .checkbox, .form-horizontal .radio {
+    margin-bottom: 4px;
+    padding-left: 25px;
+    line-height: 25px;
+    color: #404040;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+/*.form-horizontal *, .form-horizontal *::after, .form-horizontal *::before {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*box-sizing: content-box;*/
+    /*-moz-box-sizing: content-box;*/
+/*}*/
+
+label {
+    font-weight: 400;
+}
+
+.form-horizontal .button, .form-horizontal .checkbox, .form-horizontal .input, .form-horizontal .radio, .form-horizontal .select, .form-horizontal .textarea, .form-horizontal .toggle {
+    position: relative;
+    display: block;
+    font-weight: 400;
+}
+
+.form-horizontal .checkbox input:checked + i,.form-horizontal .radio input:checked + i, .form-horizontal .toggle input:checked + i {
+    border-color: #3276B1;
+}
+
+.form-horizontal .checkbox:hover i, .form-horizontal .radio:hover i, .form-horizontal .toggle:hover i {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.1);
+}
+.form-horizontal .checkbox:hover i, .form-horizontal .input:hover input, .form-horizontal .radio:hover i, .form-horizontal .select:hover select, .form-horizontal .textarea:hover textarea, .form-horizontal .toggle:hover i {
+    border-color: #5D98CC;
+}
+
+.form-horizontal .checkbox i, .form-horizontal .icon-append, .form-horizontal .icon-prepend, .form-horizontal .input input, .form-horizontal .radio i, .form-horizontal .select select, .form-horizontal .textarea textarea, .form-horizontal .toggle i {
+    border-color: #BDBDBD;
+    transition: border-color .3s;
+    -o-transition: border-color .3s;
+    -ms-transition: border-color .3s;
+    -moz-transition: border-color .3s;
+    -webkit-transition: border-color .3s;
+}
+
+.form-horizontal .checkbox input, .form-horizontal .radio input {
+    position: absolute;
+    left: -9999px;
+}
+
+.form-horizontal .checkbox input:checked + i::after, .form-horizontal .radio input:checked + i::after {
+    opacity: 1;
+}
+
+.form-horizontal .checkbox input + i::after {
+    color: #3276B1;
+}
+
+.form-horizontal .checkbox input + i::after {
+    content: '\f00c';
+    top: -1px;
+    left: 1px;
+    width: 15px;
+    height: 15px;
+    font: 400 16px/19px FontAwesome;
+    text-align: center;
+}
+
+.form-horizontal .checkbox input + i::after, .smart-form .radio input + i::after {
+    position: absolute;
+    opacity: 0;
+    transition: opacity .1s;
+    -o-transition: opacity .1s;
+    -ms-transition: opacity .1s;
+    -moz-transition: opacity .1s;
+    -webkit-transition: opacity .1s;
+}
+
+.form-horizontal .radio input + i::after {
+    background-color: #3276B1;
+}
+
+.form-horizontal .radio input + i::after {
+    content: '';
+    top: 4px;
+    left: 4px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+}
+
+.form-horizontal .checkbox input + i::after, .form-horizontal .radio input + i::after {
+    position: absolute;
+    opacity: 0;
+    transition: opacity .1s;
+    -o-transition: opacity .1s;
+    -ms-transition: opacity .1s;
+    -moz-transition: opacity .1s;
+    -webkit-transition: opacity .1s;
+}
+
+.form-horizontal .radio i {
+    border-radius: 50%;
+}
+
+.form-horizontal .toggle {
+    margin-bottom: 4px;
+    padding-right: 61px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #404040;
+    cursor: pointer;
+}
+
+.form-horizontal .toggle input {
+    position: absolute;
+    left: -9999px;
+}
+
+.form-horizontal .toggle i {
+    background: rgba(255,255,255,.12);
+}
+
+.form-horizontal .toggle i {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 8px;
+    display: block;
+    width: 49px;
+    height: 17px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.form-horizontal .toggle input:checked + i::before {
+    right: 36px;
+}
+
+.form-horizontal .toggle i::before {
+    background-color: #3276B1;
+}
+
+.form-horizontal .toggle i::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 4px;
+    right: 4px;
+    display: block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    opacity: 1;
+    transition: right .2s;
+    -o-transition: right .2s;
+    -ms-transition: right .2s;
+    -moz-transition: right .2s;
+    -webkit-transition: right .2s;
+}
+
+.form-horizontal .toggle input:checked + i::after {
+    content: attr(data-swchon-text);
+    text-align: right;
+}
+
+.form-horizontal .toggle i::after {
+    content: attr(data-swchoff-text);
+    position: absolute;
+    top: 2px;
+    right: 8px;
+    left: 8px;
+    font-style: normal;
+    font-size: 9px;
+    line-height: 13px;
+    font-weight: 700;
+    text-align: left;
+    color: #5f5f5f;
+}
+
+.form-horizontal .radio i, .form-horizontal .checkbox i,.form-horizontal .toggle i, .form-horizontal *::after, .form-horizontal *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+}
